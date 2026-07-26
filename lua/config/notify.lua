@@ -1,6 +1,7 @@
 return {
     background_colour = "NotifyBackground",
-    fps = 60,
-    stages = "slide",
+    fps = 25,
+    stages = "fade",
     timeout = 3000,
 }
+
