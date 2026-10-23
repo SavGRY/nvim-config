@@ -62,3 +62,8 @@ map.set("n", "<leader>ee", "<cmd>NvimTreeToggle<CR>", { desc = "Apri/Chiudi l'al
 map.set("n", "<leader>ef", "<cmd>NvimTreeFindFileToggle<CR>", { desc = "Trova il file corrente nell'albero" })
 map.set("n", "<leader>ec", "<cmd>NvimTreeCollapse<CR>", { desc = "Comprimi tutte le cartelle" })
 map.set("n", "<leader>er", "<cmd>NvimTreeRefresh<CR>", { desc = "Rinfresca l'albero dei file" })
+
+-- TERMINAL
+map.set("n", "<leader>t", "<cmd>10split | setlocal wfh | terminal<CR>", { desc = "Terminale in split orizzontale" })
+map.set("n", "<leader>vt", "<cmd>vsplit | terminal<CR>", { desc = "Terminale in split verticale" })
+map.set("n", "<leader>nt", "<cmd>tabnew | terminal<CR>", { desc = "Terminale in nuova tab" })
